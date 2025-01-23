@@ -1,0 +1,118 @@
+.parent-div {
+    display: flex;
+    gap: 15px;
+    width: 90%;
+    margin: 50px auto;
+    color: white;
+}
+
+.main-info {
+    background-color: midnightblue;
+    border-radius: 15px;
+}
+.profile {
+    background-color: blue;
+    border-radius: 15px;
+    height: 60%;
+    flex-direction: column;
+}
+
+.profile p {
+    margin-left: 20px;
+}
+
+.profile h3 {
+    margin-left: 20px;
+    color: aliceblue;
+    font-size: xx-large;
+    margin-top: 0;
+}
+
+.main-info img {
+    width: 60px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-color: beige;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.leisure {
+    display: flex;
+    gap: 15px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.timelines {
+    margin-left: 20px;
+    color: azure;
+    margin-top: 25px;
+}
+
+.events {
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.entries {
+    border-radius: 15px;
+    width: 12rem;
+    text-align: right;
+}
+
+.time-taken h3 {
+    color: aliceblue;
+    font-size: 3rem;
+}
+
+.activity {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.durations {
+    color: hsl(235, 45%, 61%);
+    position: relative;
+    bottom: 50px;
+}
+
+.time-taken {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+#work {
+    background-color: hsl(15, 100%, 70%);
+}
+
+#study {
+    background-color: hsl(348, 100%, 68%);
+}
+
+#exercise {
+    background-color: hsl(145, 58%, 55%);
+}
+
+#social {
+    background-color: hsl(264, 64%, 52%);
+}
+
+#selfcare {
+    background-color: hsl(43, 84%, 65%);
+}
+
+#games {
+    background-color: hsl(195, 74%, 62%);
+}
+
+#icons {
+    height: 45px;
+}
